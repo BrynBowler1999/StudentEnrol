@@ -14,7 +14,7 @@ class Student {
 	studentName nullable:false, blank:false
 	studentID nullable:false, blank:false
 	dob nullable:false, blank:false
-	studentEmail nullable:false, blank:false
+	studentEmail nullable:false, blank:false, email:true
 	studentUsername nullable:false, blank:false
 	studentPassword nullable:false, blank:false
 	isFundingAvailable nullable:false, blank:false
